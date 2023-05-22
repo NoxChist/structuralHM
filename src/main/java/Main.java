@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Ints calc = new IntsCalculator();
-        System.out.println(calc.sum(2, 2));
-        System.out.println(calc.sum(10, 22));
-        System.out.println(calc.mult(5, 5));
-        System.out.println(calc.pow(2, 10));
+        String a = "101",
+                b = "111";
+
+        BinOps binOps = new BinOps();
+        System.out.println(binOps.sum(a, b));
+        System.out.println(binOps.mult(a, b));
     }
 }
